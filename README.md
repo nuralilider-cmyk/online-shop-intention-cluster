@@ -1,9 +1,7 @@
 # online-shop-intention-cluster
-This is a project that uses K-means algorithm to put online shop users into groups 
-based on many factors like the amount of page visited, time spent on those pages,
-average value of pages before being visited and other factors.
+В этом проекте используется алгоритм K-means для распределения пользователей интернет-магазина по группам на основе множества факторов, таких как количество посещенных страниц, проведенное на них время, среднее значение страниц и так далее.
 
-The main factor of this dataset is Revenue, which defines whether the person did or did not buy the product.
+Главный фактор этого датасета Revenue, который показывает купил ли пользователь продукт или нет
 __________________
 <img width="589" height="435" alt="image" src="https://github.com/user-attachments/assets/026413f3-17e0-4dd4-90cc-06901c8cbf64" /> 
 
@@ -11,12 +9,9 @@ Visualisation of the Revenue in the dataset
 
 This project is going to compare the clusters that appear with and without using Page Value as a factor
 ___________________
-Подготовка данных
+## Подготовка данных ##
 
-Признаки были разделены на две группы:
-
-числовые;
-категориальные.
+Признаки были разделены на две группы: числовые и категориальные
 
 Для числовых признаков используется StandardScaler(), чтобы привести значения к примерно одному масштабу. Это важно, потому что K-Means работает с расстояниями между точками.
 
